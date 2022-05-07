@@ -79,9 +79,9 @@ public class UtilisateurController {
 
             return null;
         }
+        response.setStatus(403);
         response.getWriter().write("email inconnu");
         response.getWriter().close();
-        response.setStatus(403);
         return null;
     }
 
