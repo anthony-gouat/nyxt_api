@@ -7,14 +7,15 @@ VALUES
 
 INSERT INTO produit(nom_produit,description_produit,type_produit,score,prix)
 VALUES 
-('p1','c est le p1','type1',15,112),
-('p2','c est le p2','type2',10,12),
-('p3','c est le p3','type3',1,155.12),
-('p4','c est le p4','type1',5,15),
-('p5','c est le p5','type2',15,15.1),
-('p6','c est le p6','type3',12,55.2),
-('p7','c est le p7','type2',18,55),
-('p8','c est le p8','type1',3,34.99);
+('Msi Z-690','Support des processeurs Intel Core de 12ème génération sur socket LGA 1700. Support de la mémoire DDR4, jusqu''à 5000 MHz','Carte mère',15,112),
+('Intel i-7 12700k','Processeur intel de 12 ème géneration','Processeur',10,12),
+('MSI RTX 3080','Carte graphique Nvidia','Carte graphique',1,155.12),
+('Gigabyte B450','Socket AM4 pour les processeurs AMD. RAM => DDR4','Carte mère',5,15),
+('AMD R5 5600x','Prcesseur AMD => socket AM4','Processeur',15,15.1),
+('Radeon RX 7800x','Carte graphique AMD','Carte graphique',12,55.2),
+('Intel i-9 12900k','Processeur intel de 12 ème géneration','Processeur',18,55),
+('Msi B550','Cette carte mère est conçue pour vous permettre de monter un ordinateur de grande capacité au jeu. Elle accueille les composants récemment sortis.
+Compatible avec les processeurs AMD Ryzen','Carte mère',3,34.99);
 
 INSERT INTO favoris(id_produit,id_util)
 VALUES
